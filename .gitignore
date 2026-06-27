@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Env / secrets (keep an example if you add one)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# Claude scratch
+_claude/
+docs/superpowers/
+
+# Scratch / working notes
+_workdir/
+
+# JetBrains IDE
+.idea/
+
+# Supabase local state (also covered by supabase/.gitignore)
+supabase/.temp/
+supabase/.branches/
