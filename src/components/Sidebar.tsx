@@ -30,7 +30,10 @@ export default function Sidebar({ open, onClose, view, setView, email }: Props) 
         }`}
       >
         <div className="flex items-center justify-between px-1 py-2">
-          <span className="px-2 text-sm font-semibold text-ink">AceDay</span>
+          <span className="flex items-center gap-2 px-1">
+            <img src="/logo-aceday.png" alt="" className="h-7 w-7 object-contain" />
+            <span className="text-sm font-semibold text-ink">AceDay</span>
+          </span>
           <button
             onClick={onClose}
             aria-label="Hide sidebar"
